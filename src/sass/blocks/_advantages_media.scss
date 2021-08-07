@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 991px) {
+    .advantages {
+        padding: 70px 20px 40px 20px;
+        &__item {
+            max-width: 220px;
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 30px;
+            max-width: 300px;
+        }
+    }
+}
+
+
+@media (max-width: 575px) {
+    .advantages {
+        padding: 40px 20px 40px 20px;
+    }
+    .title {
+        font-size: 23px;
+    }
+}
