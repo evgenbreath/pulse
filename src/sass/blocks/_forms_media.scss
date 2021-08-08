@@ -1,0 +1,29 @@
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+    .feed-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        input {
+            width: 300px;
+        }
+    }
+}
+
+
+@media (max-width: 575px) {
+    .feed-form {
+        width: 100%;
+    }
+}

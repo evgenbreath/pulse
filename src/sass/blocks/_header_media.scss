@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+    .hidden-mobile{
+        display: none;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 145px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+}

@@ -12,10 +12,8 @@
 
 
 @media (max-width: 767px) {
-    .hidden-mobile{
-        display: none;
-    }
     .promo {
+        background: url(../img/bg/bg_main.png) right (center/cover) no-repeat;
         &__wrapper {
             align-items: center;
         }
@@ -24,19 +22,18 @@
         }
         &__subheader {
             text-align: center;
-
         }
- 
     }
-
 }
 
 
 @media (max-width: 575px) {
     .promo {
+        min-height: 610px;
+        padding: 10px 10px 20px 10px;
         &__header {
             text-align: center;
-            font-size: 30px;
+            font-size: 35px;
         }
         &__subheader {
             text-align: center;
@@ -46,24 +43,8 @@
             margin-top: 70px;
         }
         &__icons {
-            max-width: 300px;
+            max-width: 100%;
             margin-top: 30px;
-        }
-    }
-    .header {
-        &__logo {
-            width: 145px;
-        }
-        &__phone {
-            font-size: 14px;
-        }
-    }
-    .button {
-        width: 120px;
-        font-size: 10px;
-        &_main {
-            width: 250px;
-            font-size: 13px;
         }
     }
 }

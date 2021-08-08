@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+    .button {
+        &_submit {
+            width: 300px;
+            font-size: 15px;
+        }
+    }
+}
+
+
+@media (max-width: 575px) {
+    .button {
+        width: 120px;
+        font-size: 10px;
+        &_main {
+            width: 300px;
+            font-size: 15px;
+        }
+        &_submit {
+            width: 300px;
+            font-size: 15px;
+        }
+    }
+}
