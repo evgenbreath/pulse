@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 575px) {
+    .footer {
+        &__info {
+            width: 100%;
+            padding: 50px 20px 60px 20px;
+        }
+    }
+}
