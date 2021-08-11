@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 991px) {
+    .feed {
+        padding-left: 20px;
+        padding-right: 20px;
+        &__text {
+            margin-right: 0px;
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .feed {
+        &__item {
+            img {
+            width: 140px;
+            height: 140px;
+            margin-right: 20px;
+            }       
+        }   
+    }
+}
+
+
+@media (max-width: 575px) {
+    .feed {
+        &__item {
+            padding-top: 40px;
+            flex-direction: column;
+            img {
+                margin: 0 auto 20px auto;
+            }
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__count {
+            text-align: center;
+        }
+    }
+}

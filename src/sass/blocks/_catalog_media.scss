@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+    .catalog {
+        &__tabs {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        &__tab {
+            font-size: 16px;
+        }
+    }
+}
+
+
+@media (max-width: 575px) {
+    .catalog {
+        padding: 40px 10px;
+        &__tabs {
+            padding-right: 10px;
+            padding-left: 10px;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        &__tab {
+            margin-bottom: 10px;
+        }
+        
+    }
+}
